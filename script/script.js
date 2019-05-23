@@ -33,7 +33,7 @@ const renderShowNewsFeed = (newsArticles) => {
 }
 
 const getShowData = async () => {
-    const url = "https://newsapi.org/v2/top-headlines?country=us&apiKey=6eec2f7fe6cd4c40a3fef8f33f5778fe";
+    const url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=b06be0acad0b4144a1d85f5ea0b6588f";
     const req = new Request(url);
     const response = await fetch(req);
     const { articles } = await response.json();
