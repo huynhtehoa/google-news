@@ -8,6 +8,8 @@ Simple news website using API
 
 Here's a walkthrough of implemented user stories.
 
+![Gif Walkthrough](https://media.giphy.com/media/47CbqSIRGUkaxccqj4/giphy.gif)
+
 ## User Stories
 
 The following **required** functionalities are completed (this is a sample):
