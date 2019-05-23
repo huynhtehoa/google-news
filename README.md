@@ -19,7 +19,7 @@ The following **required** functionalities are completed (this is a sample):
 The following **optional** features are implemented:
 
 * [x] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom. 
-* [ ] The user can see an updated number of stories currently shown.
+* [x] The user can see an updated number of stories currently shown.
 * [x] The user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago". To accomplish this, we recommend you use momentjs. Please load it into your page using cdnjs or jsdelivr (these are called CDNs).
 
 The following **additional** features are implemented:
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 ## Time Spent and Lessons Learned
 
-Time spent: **X** hours spent in total.
+Time spent: **5** hours spent in total.
 
 Describe any challenges encountered while building the app.
 

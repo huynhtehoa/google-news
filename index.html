@@ -8,6 +8,8 @@
     <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--local-->
     <link rel="stylesheet" href="css/style.css">
     <!--moment js-->
@@ -18,14 +20,20 @@
 </head>
 
 <body>
-    <header class="my-3 mb-5">
+    <header class="my-3 mb-5" style="border-bottom: 1px solid;">
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <img class="mb-5" src="img/logo.png" alt="hoa-times-logo">
                 </div>
-                <div class="col-12">
+                <div class="col-8">
                     <h1 style="font-size: 30px;">No. of Articles: <span id="number-news"></span></h1>
+                </div>
+                <div class="input-group mb-3 col-4">
+                    <input type="text" class="form-control" placeholder="You can't search...">
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" type="button"><i class="fa fa-search"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -37,7 +45,7 @@
         <div class="container">
             <div id="load-more" style="display: none;"></div>
             <div class="d-flex justify-content-center">
-                <button id="load-more-btn" class="btn btn-dark btn-lg" style="border-radius: 0px;" onclick="getShowDataMore()">
+                <button id="load-more-btn" class="btn btn-dark btn-lg" onclick="getShowDataMore()">
                     Load More
                 </button>
             </div>
@@ -59,4 +67,3 @@
 </body>
 
 </html>
-
